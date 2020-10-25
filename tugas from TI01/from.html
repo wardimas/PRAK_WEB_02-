@@ -1,0 +1,100 @@
+<html>
+<head>
+    <title>Pendaftaran Online</title>
+    
+<style type="text/css">
+    td{font-family:Verdana;}
+</style>
+    
+</head>
+
+<body>
+
+    
+    <form action="" method="POST">
+    <table border="0">
+    <h1 align="center">Pendaftaran Online</h1>
+    <h3>Tambah Anggota</h3>
+    <div>
+        <tr>
+            <td>Nama Lengkap</td>
+            <td>:</td>
+            <td><input type="text" name="Nama Lengkap" size=37/></td>
+        </tr>
+    </div>
+   
+    <div>
+        <tr>
+            <td>Tempat Lahir</td>
+            <td>:</td>
+            <td><input type="text" name="Tempat Lahir" size=37/></td>
+            <td>Tanggal Lahir</td>
+            
+            <td><input type="date"></td>
+        </tr>
+    </div>
+   
+    <div>
+        <tr>
+            <td>Jenis Kelamin</td>
+            <td>:</td>
+            <td><input type="radio" name="sex" value="1" id="" /><label class="" for="">Laki-laki </label>
+            <input type="radio" name="sex" value="2" id="" /><label class="" for="">Perempuan </label></td>
+        </tr>
+    </div>
+    <div>
+        <tr>
+            <td valign="top">Alamat Rumah</td>
+            <td valign="top">:</td>
+            <td valign="top" colspan="2">
+                <textarea name="alamat" id="alamat" class="form" cols="50" rows="8"></textarea>
+            </td>
+            <td valign="top">
+                <div>
+                    <label for="kota">Kota</label>
+                    <input type="text" name="kota" id="kota" class="form">
+                </div>
+                <div>
+                    <label for="negara">Negara</label>
+                    <input type="text" name="negara" id="negara" class="form">
+                </div>
+                <div>
+                    <label for="kode_pos">Kode Pos</label>
+                    <input type="number" name="kode_pos" id="kode_pos" class="form">
+                </div>
+            </td>
+        </tr>
+    </div>
+    <div>
+        <tr>
+            <td><label for="hp">No. HP</label></td>
+            <td>:</td>
+            <td colspan="3"><input name="hp" id="hp" type="text" class="form"></td>
+        </tr>
+    </div>  
+    <div>
+        <tr>
+            <td><label for="email">Email</label></td>
+            <td>:</td>
+            <td colspan="3"><input name="email" id="email" type="text" class="form"></td>
+        </tr>
+    </div>
+     <div>
+         <tr>
+            <td><label for="tinggi_badan">Tinggi Badan</label></td>
+            <td>:</td>
+            <td colspan="3"><input name="tinggi_badan" id="tinggi_badan" type="text" class="form"></td>
+        </tr>
+     </div>   
+     <div>
+         <tr>
+            <td><label for="berat_badan">Berat Badan</label></td>
+            <td>:</td>
+            <td colspan="3"><input name="berat_badan" id="berat_badan" type="text" class="form"></td>
+        </tr>
+     </div> 
+    </table>
+    <input type="submit" class="btn" value="Simpan">
+    </form>
+</body>
+</html>
